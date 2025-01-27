@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: hsl(116, 63%, 44%);
+  }
+  
+  header {
+    background: hsl(122, 61%, 56%);
+    color: #902f2f;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #a91010;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .section:nth-child(even) {
+    background: hsl(0, 78%, 23%);
+  }
+  
+  .project {
+    margin: 1rem 0;
+  }
+  
+  footer {
+    background: #1c0930;
+    color: #cdb1b1;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  .profile-pic {
+    width: 200px; /* Atur lebar sesuai kebutuhan */
+    height: 200px; /* Atur tinggi sesuai kebutuhan */
+    margin-bottom: 20px; /* Jarak bawah untuk memberikan ruang */
+}
